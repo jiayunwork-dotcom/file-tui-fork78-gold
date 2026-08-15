@@ -90,7 +90,7 @@ func (p *Preview) Load(path string, width, height int, themeName string) error {
 
 func isImageExt(ext string) bool {
 	switch ext {
-	case ".png", ".jpg", ".gif":
+	case ".png", ".jpg", ".jpeg", ".gif":
 		return true
 	}
 	return false
